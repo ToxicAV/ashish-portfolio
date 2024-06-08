@@ -1,0 +1,77 @@
+@keyframes shine {
+    0% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  
+  .shine {
+    animation: shine 2s infinite;
+  }
+  
+  .shine-1 {
+    animation-delay: 0s;
+  }
+  
+  .shine-2 {
+    animation-delay: 0.2s;
+  }
+  
+  .shine-3 {
+    animation-delay: 0.4s;
+  }
+  
+  .shine-4 {
+    animation-delay: 0.6s;
+  }
+  
+  .shine-5 {
+    animation-delay: 0.8s;
+  }
+  
+  .shine-6 {
+    animation-delay: 1s;
+  }
+  .shine-7 {
+    animation-delay: 1.2s;
+  }
+  .shine-8 {
+    animation-delay: 1.4s;
+  }
+  .shine-9 {
+    animation-delay: 1.8s;
+  }
+  .shine-10 {
+    animation-delay: 2s;
+  }
+  
+
+  /* ****************  PARALLEX  EFFECT ************** */
+
+  
+  .parallax {
+    /* Make the background image fixed relative to the viewport */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .parallax-layer-1 {
+    /* background-image: url('path/to/your/image1.jpg'); */
+    background-color: blueviolet;
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  .parallax-layer-2 {
+    /* background-image: url('path/to/your/image2.jpg'); */
+    background-color: blue;
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  /* Add additional layers as needed */
+  
